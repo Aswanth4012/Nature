@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <ul class="nav-lists">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button class="btn btn-secondary">202-527-2015</button></li>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: #fafafa;"></i>
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">we all love</h1>
+                <h1 class="main-heading">nature</h1>
+                <p>Look deep into nature, and you will understand everything better.</p>
+                <button class="btn btn-primary">Get started</button>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our Services</h1>  
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="Images/ets.jpg" alt="man standing near fence">
+                    <h3>Web Design</h3>
+                    <p>Focus on how you can help and benefit your user. Use simple word so that you don't confuse people.</p>
+                </div>
+                <div class="service">
+                    <img src="Images/field-6574455_640-right.jpg" alt="women image">
+                    <h3>Graphic Design</h3>
+                    <p>Focus on how you can help and benefit your user. Use simple word so that you don't confuse people.</p>
+                </div>
+                <div class="service">
+                    <img src="Images/fog-6483278_640.jpg" alt="filed image">
+                    <h3>Content Creation</h3>
+                    <p>Focus on how you can help and benefit your user. Use simple word so that you don't confuse people.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="container">
+            <i class="fa-solid fa-quote-right"></i>
+            <h1>"Original and with an innate understanding of their customer's needs, the team at love nature are always a pleasure to work with."</h1>
+            <div class="profile">
+                <img src="Images/customer-profile.jpg" alt="">
+                <h4>Max Mayfield</h4>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>ABOUT US</h4>
+                <h1>Tell website visitors who you are and why they should choose your business.</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Beatae est similique reiciendis incidunt eos fugiat, 
+                    nulla quae commodi praesentium vitae. Eius aliquid ipsam qui quidem iure nostrum veniam exercitationem aut!
+                </p>
+                <button class="btn btn-primary">Let's talk now</button>
+            </div>
+            <div class="about-image">
+                <img src="Images/fog-7440132_640-about.jpg" alt="fogy mountains">
+            </div>
+        </div>
+    </section>
+    <section id="questions">
+        <div class="container">
+            <h1>QUESTIONS</h1>
+            <P>Weather you're curious about features, a free trial, or even press, we're here to answer any questions.</P>
+            <button class="btn btn-primary">Let's talk now</button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <i class="fa-brands fa-canadian-maple-leaf"></i>
+            <p>Lorem ipsum dolor sit amet consectetur ad</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.fa-bars');
+        const list = document.querySelector('.nav-lists');
+
+        menuBtn.addEventListener('click',function(){
+            list.classList.toggle('active');
+        })
+    </script>
+    <script src="https://kit.fontawesome.com/11998b0979.js" crossorigin="anonymous"></script>
+</body>
+</html>
